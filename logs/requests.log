@@ -1,0 +1,34 @@
+2023-03-05 19:32:03,144 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 19:32:03,196 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 19:32:03,281 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击成功
+2023-03-05 19:32:03,345 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '账号登录')
+2023-03-05 19:32:03,928 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '账号登录', 'type': 'linktext', 'value': '账号登录'}点击成功
+2023-03-05 19:32:03,929 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'username')
+2023-03-05 19:32:03,969 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'username'}元素成功
+2023-03-05 19:32:04,116 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'username'}输入文本内容yaoyao成功
+2023-03-05 19:32:04,117 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'password')
+2023-03-05 19:32:04,132 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入密码', 'type': 'id', 'value': 'password'}元素成功
+2023-03-05 19:32:04,300 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入密码', 'type': 'id', 'value': 'password'}输入文本内容yaoyao123456成功
+2023-03-05 19:32:04,300 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'validcode')
+2023-03-05 19:32:04,315 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}元素成功
+2023-03-05 19:32:04,547 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入文本内容1512成功
+2023-03-05 19:32:04,548 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', "(//*[@class='form-sub'])[2]")
+2023-03-05 19:32:04,726 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '点击登录按钮', 'type': 'xpath', 'value': "(//*[@class='form-sub'])[2]"}点击成功
+2023-03-05 19:32:07,206 INFO [apiautotest] [driver.py (quit:102] - driver退出成功
+2023-03-05 19:33:15,192 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 19:33:15,226 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 19:33:15,475 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击成功
+2023-03-05 19:33:15,541 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '账号登录')
+2023-03-05 19:33:20,440 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '账号登录', 'type': 'linktext', 'value': '账号登录'}点击成功
+2023-03-05 19:33:20,440 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'username')
+2023-03-05 19:33:20,462 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'username'}元素成功
+2023-03-05 19:33:20,580 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'username'}输入文本内容yaoyao成功
+2023-03-05 19:33:20,580 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'password')
+2023-03-05 19:33:20,594 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入密码', 'type': 'id', 'value': 'password'}元素成功
+2023-03-05 19:33:20,730 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入密码', 'type': 'id', 'value': 'password'}输入文本内容yaoyao123456成功
+2023-03-05 19:33:20,730 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'validcode')
+2023-03-05 19:33:20,743 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}元素成功
+2023-03-05 19:33:20,842 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入文本内容1512成功
+2023-03-05 19:33:20,843 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', "(//*[@class='form-sub'])[2]")
+2023-03-05 19:33:20,907 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '点击登录按钮', 'type': 'xpath', 'value': "(//*[@class='form-sub'])[2]"}点击成功
+2023-03-05 19:33:23,167 INFO [apiautotest] [driver.py (quit:102] - driver退出成功

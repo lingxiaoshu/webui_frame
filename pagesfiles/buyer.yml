@@ -1,0 +1,56 @@
+LoginPage:
+  账号登录: {"name":"账号登录","type":"linktext","value":"账号登录"}
+  输入用户名: {"name":"输入用户名","type":"id","value":"username"}
+  输入密码: {"name":"输入密码","type":"id","value":"password"}
+  输入验证码: {"name":"输入验证码","type":"id","value":"validcode"}
+  点击登录按钮: {"name":"点击登录按钮","type":"xpath","value":"(//*[@class='form-sub'])[2]"}
+HomePage:
+  登录链接: {"name":"登录链接","type":"linktext","value":"登录"}
+  进入个人中心: {"name":"进入个人中心","type":"xpath","value":'//*[text()="进入个人中心"]'}
+  搜索框: {"name":"搜索框",'type': 'xpath','value': '(//*[@class="search-input"])[1]' }
+  搜索按钮: {"name":"搜索按钮",'type': 'xpath','value': '(//*[text()="搜商品"])[1]' }
+
+PersonCenterPage:
+  收货地址菜单: {"name":"收货地址菜单","type":"xpath","value":'//*[text()="收货地址"]'}
+  个人信息: {"name": "个人信息",'type': 'xpath','value': '(//*[text()="个人信息"])[1]' }
+  我的订单: {"name": "个人信息",'type': 'xpath','value': '(//*[text()="我的订单"])[2]' }
+AcceptAddressPage:
+  添加地址: {"name":"添加地址","type":"xpath","value":'//*[text()="添加地址"]'}
+  收货人姓名: {"name":"收货人姓名","type":"xpath","value":'(//*[@class="el-input__inner"])[1]'}
+  输入联系方式: {"name":"联系方式","type":"xpath","value":'(//*[@class="el-input__inner"])[2]'}
+  收货地区: {"name":"收货地区","type":"css","value":"div.app-address-title"}
+  详细地址: {"name":"详细地址","type":"xpath","value":'(//*[@class="el-input__inner"])[3]'}
+  地址别名: {"name":"地址别名","type":"xpath","value":'(//*[@class="el-input__inner"])[4]'}
+  确认按钮: {"name":"确认按钮","type":"linktext","value":"确认"}
+
+SearchResultPage:
+  目标商品: {"name":"目标商品",'type': 'css','value': '.gl-item'}
+GoodsDetailPage:
+  立即购买: {"name":"立即购买",'type': 'xpath','value': '//*[text()="立即购买"]'}
+SelectOrderPage:
+  选择收货地址: {"name":"选择收货地址",'type': 'css','value': '#address_list>li:first-child'}
+  提交订单: {"name":"提交订单",'type': 'linktext','value': '提交订单'}
+OrderResultPage:
+  查看订单: {"name":"查看订单",'type': 'linktext','value': '查看订单'}
+  交易号: {"name":"交易号",'type': 'tagname','value': 'b'}
+
+MyOrderPage:
+  待发货: {"name":"待发货",'type': 'xpath','value': '//*[text()="待发货"]'}
+  待收货: {"name":"待收货",'type': 'xpath','value': '//*[text()="待收货"]'}
+  待评价: {"name":"待评价",'type': 'xpath','value': '//*[text()="待评价"]'}
+  取消订单: {"name":"取消订单",'type': 'xpath','value': '(//*[text()="取消订单"])[1]'}
+  取消原因: {"name":"取消原因",'type': 'xpath','value': '//textarea'}
+  取消的确定按钮: {"name":"取消的确定按钮",'type': 'xpath','value': '//*[text()="确定"]'}
+  确认收货: {"name":"确认收货",'type': 'xpath','value': '//*[text()="确认收货"]'}
+  确定按钮: {"name":"确定按钮",'type': 'xpath','value': '//*[text()="确定"]'}
+  去评论: {"name":"去评论",'type': 'linktext','value': '去评论'}
+
+CommentPage:
+  评分: {"name":"评分",'type': 'css','value': '.el-radio__inner'}
+  评论内容输入框: {"name":"评论内容输入框",'type': 'xpath','value': '//textarea'}
+  发表评论: {"name":"发表评论",'type': 'xpath','value': '//*[text()="发表评论"]'}
+
+PersonInfoPage:
+  执行js: {"name":"执行js",'type': 'js','value': "document.getElementsByClassName('el-input__inner')[1].readOnly='';"}
+  输入框元素: {"name":"输入框元素",'type': 'css','value': 'form>div:nth-child(4) .el-input__inner'}
+  保存资料: {"name":"保存资料",'type': 'xpath','value': '//*[text()="保存资料"]'}

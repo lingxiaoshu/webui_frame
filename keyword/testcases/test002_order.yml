@@ -1,0 +1,11 @@
+name: 订单测试集合 #表示该测试用例的名称
+
+testcases:
+  - testcase:
+      name: 创建订单 #测试用例名称
+      preactions: #这表示测试用例依赖的前置业务
+        - action: /keyword/actions/buyer_login.yml
+      action: /keyword/actions/create_order.yml #这表示该测试用例对应的业务
+      validate: #表示断言
+        - type: page_contains #断言类型
+          expect: 订单状态刷新可能会延迟，如果您已付款成功，请勿重复支付 #期望值

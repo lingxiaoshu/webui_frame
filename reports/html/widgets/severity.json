@@ -1,0 +1,71 @@
+[ {
+  "uid" : "36ccdf1214e2873e",
+  "name" : "添加地址-正确",
+  "time" : {
+    "start" : 1678006860815,
+    "stop" : 1678006860815,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6f0d040dea015d35",
+  "name" : "添加地址-不选择地址",
+  "time" : {
+    "start" : 1678006860758,
+    "stop" : 1678006860758,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ede24a385efee66a",
+  "name" : "添加地址-收货人为空",
+  "time" : {
+    "start" : 1678006850886,
+    "stop" : 1678006850886,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "167d531dbb7b28cc",
+  "name" : "添加地址-地址别名为空",
+  "time" : {
+    "start" : 1678006860917,
+    "stop" : 1678006860917,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "83a03c3475fed349",
+  "name" : "添加地址-手机格式不对",
+  "time" : {
+    "start" : 1678006860870,
+    "stop" : 1678006860870,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fbec318d5278017d",
+  "name" : "添加地址-详细地址为空",
+  "time" : {
+    "start" : 1678006860704,
+    "stop" : 1678006860704,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e37915ba3802593e",
+  "name" : "添加地址-联系人为空",
+  "time" : {
+    "start" : 1678006860667,
+    "stop" : 1678006860667,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

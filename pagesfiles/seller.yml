@@ -1,0 +1,23 @@
+SellerLoginPage:
+  用户名输入框: { 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]' }
+  密码输入框: { 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]' }
+  验证码输入框: { 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]' }
+  登录按钮: { 'type': 'css', 'value': '.el-button.login-btn' }
+SellerHomePage:
+  订单管理: {"name":"订单管理",'type': 'xpath','value': '//*[text()="订单管理"]'}
+  订单列表: {"name":"订单列表",'type': 'xpath','value': '//*[text()="订单列表"]'}
+
+OrderListPage:
+  查看详情页: {"name":"查看详情页",'type': 'xpath','value': '(//*[text()="查看详情"])[1]'}
+  搜索输入框: {"name":"搜索输入框",'type': 'xpath','value': '//*[@class="el-input__inner"]'}
+  搜索按钮: {"name":"搜索按钮",'type': 'css','value': '.el-input-group__append>button'}
+
+
+OrderDetailPage:
+  物流单号输入框: {"name":"物流单号输入框",'type': 'xpath','value': '(//span[contains(text(),"发货")]/../../..//tr//td)[2]//input'}
+  发货按钮: {"name":"发货按钮",'type': 'xpath','value': '(//span[contains(text(),"发货")])[1]'}
+  确定按钮: {"name":"确定按钮",'type': 'xpath','value': '//*[contains(text(),"确认发货")]/../../following-sibling::div/button[2]'}
+  确认收款: {"name":"发货按钮",'type': 'xpath','value': '//*[text()="确认收款"]'}
+  确定收款按钮: {"name":"确定收款按钮",'type': 'xpath','value': '//*[text()="确认执行此操作?"]/../../following-sibling::div/button[2]'}
+
+

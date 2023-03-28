@@ -1,0 +1,27 @@
+name: 买家登录业务 # 这表示业务名称
+pagefile: /pagefiles/buyer.yml  # 表示该业务依赖的元素管理文件
+variables: # 表示该业务数据变量的默认值
+  username: yaoyao
+  password: yaoyao123456
+steps:
+  - page: HomePage # 表示该步骤要操作的页面，名字要和pagefile的名字一致
+    element: 登录链接 # 表示要操作的元素
+    operate: click # 要做的操作，跟driver里面的方法一致
+  - page: LoginPage
+    element: 账号登录
+    operate: click
+  - page: LoginPage
+    element: 输入用户名
+    operate: send_keys
+    param: ${username}   # 要输入的文本内容
+  - page: LoginPage
+    element: 输入密码
+    operate: send_keys
+    param: ${password}
+  - page: LoginPage
+    element: 输入验证码
+    operate: send_keys
+    param: 1512
+  - page: LoginPage
+    element: 点击登录按钮
+    operate: click

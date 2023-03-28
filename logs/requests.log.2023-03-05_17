@@ -1,0 +1,798 @@
+2023-03-05 13:53:51,671 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 13:53:51,715 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 13:53:51,787 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击成功
+2023-03-05 13:53:51,834 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '账号登录')
+2023-03-05 13:53:59,338 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '账号登录', 'type': 'linktext', 'value': '账号登录'}点击成功
+2023-03-05 13:53:59,339 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'username')
+2023-03-05 13:53:59,357 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'username'}元素成功
+2023-03-05 13:53:59,513 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'username'}输入文本内容yaoyao成功
+2023-03-05 13:53:59,514 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'password')
+2023-03-05 13:53:59,526 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入密码', 'type': 'id', 'value': 'password'}元素成功
+2023-03-05 13:53:59,692 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入密码', 'type': 'id', 'value': 'password'}输入文本内容yaoyao123456成功
+2023-03-05 13:53:59,692 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'validcode')
+2023-03-05 13:53:59,705 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}元素成功
+2023-03-05 13:53:59,817 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入文本内容1512成功
+2023-03-05 13:53:59,817 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', "(//*[@class='form-sub'])[2]")
+2023-03-05 13:53:59,889 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '点击登录按钮', 'type': 'xpath', 'value': "(//*[@class='form-sub'])[2]"}点击成功
+2023-03-05 13:53:59,916 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 13:54:01,961 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 13:54:01,993 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 13:54:02,742 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 13:54:02,793 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 13:54:06,863 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 13:54:06,864 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 13:54:06,889 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 13:54:07,079 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容默认名字成功
+2023-03-05 13:54:07,080 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 13:54:07,108 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 13:54:07,363 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容13623451234成功
+2023-03-05 13:54:07,363 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 13:54:07,379 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 13:54:07,673 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 13:54:09,683 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 13:54:09,874 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 13:54:11,880 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '朝阳区')
+2023-03-05 13:54:12,006 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '朝阳区'}点击成功
+2023-03-05 13:54:14,019 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 13:54:14,172 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击成功
+2023-03-05 13:54:22,179 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 13:54:22,197 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 13:54:22,355 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容默认的地址成功
+2023-03-05 13:54:22,355 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 13:54:22,372 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 13:54:22,537 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容默认别名成功
+2023-03-05 13:54:22,537 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 13:54:22,698 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 13:54:23,385 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含保存成功文本
+2023-03-05 13:54:24,353 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 13:54:24,394 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 13:54:24,902 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 13:54:24,982 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 13:54:25,625 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 13:54:25,677 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 13:54:29,622 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 13:54:29,622 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 13:54:29,642 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 13:54:29,872 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容默认名字成功
+2023-03-05 13:54:29,872 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 13:54:29,893 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 13:54:30,122 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容13623451234成功
+2023-03-05 13:54:30,123 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 13:54:30,133 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 13:54:30,280 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容默认的地址成功
+2023-03-05 13:54:30,280 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 13:54:30,291 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 13:54:30,435 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容默认别名成功
+2023-03-05 13:54:30,436 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 13:54:30,591 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 13:54:30,715 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含请选择地址地区文本
+2023-03-05 13:54:34,861 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 13:54:37,193 INFO [apiautotest] [driver.py (quit:102] - driver退出成功
+2023-03-05 14:21:21,321 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:21:21,354 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 14:21:21,441 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击成功
+2023-03-05 14:21:21,489 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '账号登录')
+2023-03-05 14:21:22,432 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '账号登录', 'type': 'linktext', 'value': '账号登录'}点击成功
+2023-03-05 14:21:22,432 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'username')
+2023-03-05 14:21:22,448 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'username'}元素成功
+2023-03-05 14:21:22,598 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'username'}输入文本内容yaoyao成功
+2023-03-05 14:21:22,598 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'password')
+2023-03-05 14:21:22,615 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入密码', 'type': 'id', 'value': 'password'}元素成功
+2023-03-05 14:21:22,784 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入密码', 'type': 'id', 'value': 'password'}输入文本内容yaoyao123456成功
+2023-03-05 14:21:22,784 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'validcode')
+2023-03-05 14:21:22,798 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}元素成功
+2023-03-05 14:21:22,928 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入文本内容1512成功
+2023-03-05 14:21:22,928 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', "(//*[@class='form-sub'])[2]")
+2023-03-05 14:21:22,996 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '点击登录按钮', 'type': 'xpath', 'value': "(//*[@class='form-sub'])[2]"}点击成功
+2023-03-05 14:21:23,022 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:21:24,850 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:21:24,890 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:21:25,604 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:21:25,665 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:21:27,497 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:21:27,497 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:21:27,516 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:21:27,682 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容成功
+2023-03-05 14:21:27,682 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:21:27,722 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:21:28,036 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873229成功
+2023-03-05 14:21:28,038 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:21:28,054 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:21:28,346 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:21:30,359 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:22:02,399 ERROR [apiautotest] [driver.py (click:68] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击失败，报错信息为Message: 
+
+2023-03-05 14:22:03,621 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:22:03,704 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:22:04,134 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:22:04,170 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:22:04,817 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:22:04,891 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:22:05,868 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:22:05,868 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:22:05,930 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:22:06,199 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:22:06,199 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:22:06,220 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:22:06,322 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容成功
+2023-03-05 14:22:06,323 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:22:06,349 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:22:06,635 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:22:08,641 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:22:29,208 ERROR [apiautotest] [driver.py (click:68] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击失败，报错信息为Message: 
+
+2023-03-05 14:22:30,236 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:22:30,287 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:22:30,735 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:22:30,792 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:22:31,533 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:22:31,596 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:22:35,769 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:22:35,769 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:22:35,796 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:22:36,035 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:22:36,035 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:22:36,067 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:22:36,338 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873229成功
+2023-03-05 14:22:36,338 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:22:36,353 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:22:36,633 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:22:38,633 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:22:38,832 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 14:22:40,844 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '海淀区')
+2023-03-05 14:22:41,027 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '海淀区'}点击成功
+2023-03-05 14:22:43,038 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 14:22:43,233 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击成功
+2023-03-05 14:22:51,248 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:22:51,306 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:22:51,422 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容成功
+2023-03-05 14:22:51,422 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:22:51,440 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:22:51,637 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容这是一个别名成功
+2023-03-05 14:22:51,637 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:22:51,787 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:22:51,865 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含请输入详细地址文本
+2023-03-05 14:22:53,503 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:22:53,566 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:22:53,751 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:22:53,805 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:22:54,445 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:22:54,521 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:22:58,516 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:22:58,517 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:22:58,538 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:22:58,768 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:22:58,768 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:22:58,785 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:22:59,027 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873230成功
+2023-03-05 14:22:59,027 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:22:59,038 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:22:59,194 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容北京霍营成功
+2023-03-05 14:22:59,194 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:22:59,207 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:22:59,378 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容这是一个别名成功
+2023-03-05 14:22:59,378 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:22:59,525 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:22:59,598 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含请选择地址地区文本
+2023-03-05 14:23:00,363 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:23:00,432 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:23:00,826 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:23:00,882 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:23:01,491 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:23:01,560 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:23:02,280 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:23:02,280 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:23:02,314 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:23:02,550 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:23:02,550 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:23:02,578 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:23:02,813 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873231成功
+2023-03-05 14:23:02,814 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:23:02,824 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:23:03,094 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:23:05,095 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:23:05,267 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 14:23:07,274 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '海淀区')
+2023-03-05 14:23:07,396 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '海淀区'}点击成功
+2023-03-05 14:23:09,408 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 14:23:09,575 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击成功
+2023-03-05 14:23:17,578 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:23:17,617 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:23:17,792 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容北京霍营成功
+2023-03-05 14:23:17,792 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:23:17,805 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:23:17,988 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容这是一个别名成功
+2023-03-05 14:23:17,988 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:23:18,128 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:23:18,846 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含保存成功文本
+2023-03-05 14:23:19,901 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:23:19,964 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:23:20,341 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:23:20,388 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:23:21,193 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:23:21,260 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:23:23,075 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:23:23,075 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:23:23,097 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:23:23,378 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:23:23,378 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:23:23,399 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:23:23,581 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容1111成功
+2023-03-05 14:23:23,581 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:23:23,619 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:23:23,894 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:23:25,902 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:23:26,126 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 14:23:28,127 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '海淀区')
+2023-03-05 14:23:28,306 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '海淀区'}点击成功
+2023-03-05 14:23:30,319 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 14:23:30,506 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击成功
+2023-03-05 14:23:38,508 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:23:38,550 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:23:38,725 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容北京霍营成功
+2023-03-05 14:23:38,726 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:23:38,740 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:23:38,924 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容这是一个别名成功
+2023-03-05 14:23:38,925 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:23:39,056 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:23:39,126 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含手机格式有误文本
+2023-03-05 14:23:40,094 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:23:40,148 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:23:40,580 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:23:40,638 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:23:41,232 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:23:41,298 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:23:42,228 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:23:42,228 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:23:42,246 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:23:42,489 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:23:42,490 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:23:42,513 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:23:42,744 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873231成功
+2023-03-05 14:23:42,745 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:23:42,757 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:23:43,035 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:23:45,047 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:23:45,238 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 14:23:47,247 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '海淀区')
+2023-03-05 14:23:47,409 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '海淀区'}点击成功
+2023-03-05 14:23:49,422 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 14:23:49,611 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击成功
+2023-03-05 14:23:57,614 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:23:57,642 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:23:57,819 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容北京霍营成功
+2023-03-05 14:23:57,819 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:23:57,833 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:23:57,942 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容成功
+2023-03-05 14:23:57,943 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:23:58,106 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:23:58,783 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含保存成功文本
+2023-03-05 14:23:59,720 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:23:59,793 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:24:00,239 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:24:00,290 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:24:00,956 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:24:01,018 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:24:04,898 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:24:04,898 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:24:04,921 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:24:05,063 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容默认名字成功
+2023-03-05 14:24:05,063 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:24:05,078 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:24:05,300 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容13623451234成功
+2023-03-05 14:24:05,301 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:24:05,312 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:24:05,440 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容默认的地址成功
+2023-03-05 14:24:05,440 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:24:05,452 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:24:05,572 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容默认别名成功
+2023-03-05 14:24:05,572 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:24:05,713 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:24:05,788 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含请选择地址地区文本
+2023-03-05 14:24:06,649 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:24:08,942 INFO [apiautotest] [driver.py (quit:102] - driver退出成功
+2023-03-05 14:30:40,638 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:30:40,671 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 14:30:40,750 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击成功
+2023-03-05 14:30:40,805 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '账号登录')
+2023-03-05 14:30:41,440 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '账号登录', 'type': 'linktext', 'value': '账号登录'}点击成功
+2023-03-05 14:30:41,440 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'username')
+2023-03-05 14:30:41,462 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'username'}元素成功
+2023-03-05 14:30:41,622 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'username'}输入文本内容yaoyao成功
+2023-03-05 14:30:41,623 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'password')
+2023-03-05 14:30:41,641 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入密码', 'type': 'id', 'value': 'password'}元素成功
+2023-03-05 14:30:41,829 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入密码', 'type': 'id', 'value': 'password'}输入文本内容yaoyao123456成功
+2023-03-05 14:30:41,829 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'validcode')
+2023-03-05 14:30:41,845 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}元素成功
+2023-03-05 14:30:41,972 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入文本内容1512成功
+2023-03-05 14:30:41,973 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', "(//*[@class='form-sub'])[2]")
+2023-03-05 14:30:42,039 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '点击登录按钮', 'type': 'xpath', 'value': "(//*[@class='form-sub'])[2]"}点击成功
+2023-03-05 14:30:42,069 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:30:47,004 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:30:47,041 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:30:47,737 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:30:47,808 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:30:48,635 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:30:48,635 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:30:48,662 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:30:48,840 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容成功
+2023-03-05 14:30:48,840 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:30:48,869 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:30:49,182 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873229成功
+2023-03-05 14:30:49,183 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:30:49,202 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:30:49,491 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:30:51,506 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:30:51,673 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 14:30:53,688 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '海淀区')
+2023-03-05 14:30:53,853 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '海淀区'}点击成功
+2023-03-05 14:30:55,860 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 14:30:56,001 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击成功
+2023-03-05 14:31:04,004 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:31:04,055 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:31:04,216 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容北京霍营成功
+2023-03-05 14:31:04,216 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:31:04,235 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:31:04,425 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容这是一个别名成功
+2023-03-05 14:31:04,425 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:31:04,573 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:31:04,645 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含请输入收货人姓名文本
+2023-03-05 14:31:06,318 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:31:06,421 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:31:06,574 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:31:06,623 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:31:07,320 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:31:07,383 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:31:08,042 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:31:08,042 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:31:08,069 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:31:08,251 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:31:08,251 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:31:08,268 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:31:08,398 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容成功
+2023-03-05 14:31:08,399 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:31:08,408 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:31:08,692 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:31:10,707 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:31:10,959 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 14:31:12,971 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '海淀区')
+2023-03-05 14:31:13,106 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '海淀区'}点击成功
+2023-03-05 14:31:15,111 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 14:31:15,276 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击成功
+2023-03-05 14:31:23,282 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:31:23,297 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:31:23,428 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容北京霍营成功
+2023-03-05 14:31:23,429 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:31:23,440 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:31:23,584 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容这是一个别名成功
+2023-03-05 14:31:23,584 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:31:23,712 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:31:43,888 WARNING [apiautotest] [driver.py (page_contains:96] - 元素源码中不包含请输入联系人方式文本，报错信息不包含Message: 
+
+2023-03-05 14:32:04,038 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:32:04,098 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:32:04,637 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:32:04,694 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:32:05,350 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:32:05,406 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:32:06,152 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:32:06,153 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:32:06,171 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:32:06,385 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:32:06,386 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:32:06,403 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:32:06,639 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873229成功
+2023-03-05 14:32:06,639 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:32:06,653 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:32:06,943 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:32:08,944 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:32:09,112 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 14:32:11,126 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '海淀区')
+2023-03-05 14:32:11,297 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '海淀区'}点击成功
+2023-03-05 14:32:13,307 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 14:32:13,478 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击成功
+2023-03-05 14:32:21,490 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:32:21,501 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:32:21,608 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容成功
+2023-03-05 14:32:21,608 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:32:21,622 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:32:21,800 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容这是一个别名成功
+2023-03-05 14:32:21,800 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:32:21,964 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:32:22,032 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含请输入详细地址文本
+2023-03-05 14:32:23,303 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:32:23,347 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:32:23,830 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:32:23,884 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:32:24,535 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:32:24,619 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:32:25,571 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:32:25,571 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:32:25,591 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:32:25,884 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:32:25,884 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:32:25,904 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:32:26,086 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873230成功
+2023-03-05 14:32:26,087 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:32:26,099 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:32:26,213 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容北京霍营成功
+2023-03-05 14:32:26,214 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:32:26,231 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:32:26,373 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容这是一个别名成功
+2023-03-05 14:32:26,373 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:32:26,560 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:32:26,631 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含请选择地址地区文本
+2023-03-05 14:32:27,539 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:32:27,599 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:32:28,150 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:32:28,195 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:32:28,917 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:32:28,967 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:32:31,456 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:32:31,457 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:32:31,500 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:32:31,813 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:32:31,814 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:32:31,830 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:32:32,015 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873231成功
+2023-03-05 14:32:32,015 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:32:32,027 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:32:32,303 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:32:34,313 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:32:56,692 ERROR [apiautotest] [driver.py (click:68] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击失败，报错信息为Message: 
+
+2023-03-05 14:32:57,953 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:32:58,016 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:32:58,519 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:32:58,618 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:32:59,412 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:32:59,465 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:33:00,243 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:33:00,244 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:33:00,263 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:33:00,479 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:33:00,479 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:33:00,502 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:33:00,680 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容1111成功
+2023-03-05 14:33:00,680 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:33:00,694 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:33:00,984 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:33:02,994 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:33:05,684 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 14:33:07,686 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '海淀区')
+2023-03-05 14:33:07,832 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '海淀区'}点击成功
+2023-03-05 14:33:09,845 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 14:33:09,978 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击成功
+2023-03-05 14:33:17,986 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:33:18,031 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:33:18,223 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容北京霍营成功
+2023-03-05 14:33:18,223 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:33:18,239 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:33:18,372 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容这是一个别名成功
+2023-03-05 14:33:18,373 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:33:18,532 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:33:18,602 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含手机格式有误文本
+2023-03-05 14:33:19,512 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:33:19,559 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:33:20,032 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:33:20,082 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:33:20,734 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:33:20,796 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:33:21,540 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:33:21,541 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:33:21,600 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:33:21,782 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:33:21,783 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:33:21,811 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:33:21,999 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873231成功
+2023-03-05 14:33:21,999 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:33:22,012 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:33:22,295 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:33:24,297 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:33:24,460 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 14:33:26,461 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '海淀区')
+2023-03-05 14:33:26,638 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '海淀区'}点击成功
+2023-03-05 14:33:28,650 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 14:33:28,819 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击成功
+2023-03-05 14:33:36,821 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:33:36,836 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:33:36,981 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容北京霍营成功
+2023-03-05 14:33:36,981 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:33:36,996 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:33:37,128 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容成功
+2023-03-05 14:33:37,129 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:33:37,282 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:33:37,976 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含保存成功文本
+2023-03-05 14:33:38,882 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:33:41,284 INFO [apiautotest] [driver.py (quit:102] - driver退出成功
+2023-03-05 14:49:58,223 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:49:58,259 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 14:49:58,328 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击成功
+2023-03-05 14:49:58,385 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '账号登录')
+2023-03-05 14:49:58,980 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '账号登录', 'type': 'linktext', 'value': '账号登录'}点击成功
+2023-03-05 14:49:58,980 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'username')
+2023-03-05 14:49:59,001 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'username'}元素成功
+2023-03-05 14:49:59,153 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'username'}输入文本内容yaoyao成功
+2023-03-05 14:49:59,153 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'password')
+2023-03-05 14:49:59,168 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入密码', 'type': 'id', 'value': 'password'}元素成功
+2023-03-05 14:49:59,346 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入密码', 'type': 'id', 'value': 'password'}输入文本内容yaoyao123456成功
+2023-03-05 14:49:59,347 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'validcode')
+2023-03-05 14:49:59,360 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}元素成功
+2023-03-05 14:49:59,474 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入文本内容1512成功
+2023-03-05 14:49:59,474 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', "(//*[@class='form-sub'])[2]")
+2023-03-05 14:49:59,540 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '点击登录按钮', 'type': 'xpath', 'value': "(//*[@class='form-sub'])[2]"}点击成功
+2023-03-05 14:49:59,570 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:50:02,781 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:50:02,828 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:50:03,574 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:50:03,639 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:50:06,360 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:50:06,360 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:50:06,378 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:50:06,537 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容成功
+2023-03-05 14:50:06,537 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:50:06,573 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:50:06,851 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873229成功
+2023-03-05 14:50:06,852 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:50:06,868 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:50:07,145 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:50:09,155 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:50:09,371 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 14:50:11,374 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '海淀区')
+2023-03-05 14:50:11,522 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '海淀区'}点击成功
+2023-03-05 14:50:13,525 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 14:50:13,677 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击成功
+2023-03-05 14:50:21,684 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:50:21,709 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:50:21,886 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容北京霍营成功
+2023-03-05 14:50:21,886 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:50:21,902 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:50:22,082 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容这是一个别名成功
+2023-03-05 14:50:22,082 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:50:22,237 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:50:22,312 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含请输入收货人姓名文本
+2023-03-05 14:50:23,567 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:50:23,638 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:50:23,927 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:50:23,986 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:50:24,623 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:50:24,692 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:50:32,959 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:50:32,960 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:50:32,978 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:50:33,276 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:50:33,278 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:50:33,297 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:50:33,407 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容成功
+2023-03-05 14:50:33,407 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:50:33,421 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:50:33,706 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:50:35,720 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:50:35,931 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 14:50:37,932 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '海淀区')
+2023-03-05 14:50:38,052 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '海淀区'}点击成功
+2023-03-05 14:50:40,057 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 14:50:40,243 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击成功
+2023-03-05 14:50:48,246 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:50:48,262 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:50:48,417 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容北京霍营成功
+2023-03-05 14:50:48,417 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:50:48,428 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:50:48,619 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容这是一个别名成功
+2023-03-05 14:50:48,619 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:50:48,750 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:50:48,824 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含请输入联系方式文本
+2023-03-05 14:50:56,375 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:50:56,417 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:50:56,489 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:50:56,537 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:50:57,190 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:50:57,255 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:51:01,236 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:51:01,236 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:51:01,253 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:51:01,485 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:51:01,486 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:51:01,526 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:51:01,783 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873229成功
+2023-03-05 14:51:01,783 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:51:01,796 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:51:02,078 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:51:04,082 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:51:24,627 ERROR [apiautotest] [driver.py (click:68] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击失败，报错信息为Message: 
+
+2023-03-05 14:51:24,911 INFO [apiautotest] [driver.py (get_screenshot_as_png:156] - 截图成功
+2023-03-05 14:51:25,825 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:51:25,884 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:51:26,323 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:51:26,371 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:51:27,019 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:51:27,085 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:51:28,241 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:51:28,241 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:51:28,269 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:51:28,494 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:51:28,497 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:51:28,533 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:51:28,767 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873230成功
+2023-03-05 14:51:28,768 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[3]')
+2023-03-05 14:51:28,797 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}元素成功
+2023-03-05 14:51:28,949 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '详细地址', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[3]'}输入文本内容北京霍营成功
+2023-03-05 14:51:28,949 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[4]')
+2023-03-05 14:51:28,966 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}元素成功
+2023-03-05 14:51:29,157 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '地址别名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[4]'}输入文本内容这是一个别名成功
+2023-03-05 14:51:29,157 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '确认')
+2023-03-05 14:51:29,308 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '确认按钮', 'type': 'linktext', 'value': '确认'}点击成功
+2023-03-05 14:51:29,386 INFO [apiautotest] [driver.py (page_contains:93] - 元素源码中包含请选择地址地区文本
+2023-03-05 14:51:30,232 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:51:30,288 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:51:30,755 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:51:30,809 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:51:31,485 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:51:31,553 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:51:32,384 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:51:32,385 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:51:32,404 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:51:32,656 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:51:32,657 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:51:32,678 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:51:32,912 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873231成功
+2023-03-05 14:51:32,912 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:51:32,927 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:51:33,210 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:51:35,221 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:51:35,407 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击成功
+2023-03-05 14:51:37,415 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '海淀区')
+2023-03-05 14:51:37,614 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '市', 'type': 'linktext', 'value': '海淀区'}点击成功
+2023-03-05 14:51:39,628 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '三环以内')
+2023-03-05 14:52:00,185 ERROR [apiautotest] [driver.py (click:68] - 元素{'name': '区', 'type': 'linktext', 'value': '三环以内'}点击失败，报错信息为Message: 
+
+2023-03-05 14:52:00,442 INFO [apiautotest] [driver.py (get_screenshot_as_png:156] - 截图成功
+2023-03-05 14:52:01,439 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:52:01,497 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:52:01,980 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:52:02,036 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:52:02,672 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:52:02,748 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:52:06,803 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:52:06,804 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:52:06,824 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:52:07,001 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:52:07,002 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:52:07,032 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:52:07,200 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容1111成功
+2023-03-05 14:52:07,200 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:52:07,215 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:52:07,503 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:52:09,508 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:52:30,032 ERROR [apiautotest] [driver.py (click:68] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击失败，报错信息为Message: 
+
+2023-03-05 14:52:30,287 INFO [apiautotest] [driver.py (get_screenshot_as_png:156] - 截图成功
+2023-03-05 14:52:32,204 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:52:32,248 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="进入个人中心"]')
+2023-03-05 14:52:32,321 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '进入个人中心', 'type': 'xpath', 'value': '//*[text()="进入个人中心"]'}点击成功
+2023-03-05 14:52:32,382 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="收货地址"]')
+2023-03-05 14:52:33,101 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '收货地址菜单', 'type': 'xpath', 'value': '//*[text()="收货地址"]'}点击成功
+2023-03-05 14:52:33,170 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '//*[text()="添加地址"]')
+2023-03-05 14:52:35,956 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '添加地址', 'type': 'xpath', 'value': '//*[text()="添加地址"]'}点击成功
+2023-03-05 14:52:35,957 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[1]')
+2023-03-05 14:52:35,986 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}元素成功
+2023-03-05 14:52:36,205 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '收货人姓名', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[1]'}输入文本内容yaoyao成功
+2023-03-05 14:52:36,205 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', '(//*[@class="el-input__inner"])[2]')
+2023-03-05 14:52:36,238 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}元素成功
+2023-03-05 14:52:36,464 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '联系方式', 'type': 'xpath', 'value': '(//*[@class="el-input__inner"])[2]'}输入文本内容17610873231成功
+2023-03-05 14:52:36,464 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('css selector', 'div.app-address-title')
+2023-03-05 14:52:36,477 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}元素成功
+2023-03-05 14:52:36,752 INFO [apiautotest] [driver.py (move_to_element:148] - 鼠标悬浮元素{'name': '收货地区', 'type': 'css', 'value': 'div.app-address-title'}成功
+2023-03-05 14:52:38,766 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '北京')
+2023-03-05 14:52:59,312 ERROR [apiautotest] [driver.py (click:68] - 元素{'name': '省', 'type': 'linktext', 'value': '北京'}点击失败，报错信息为Message: 
+
+2023-03-05 14:52:59,566 INFO [apiautotest] [driver.py (get_screenshot_as_png:156] - 截图成功
+2023-03-05 14:53:00,586 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 14:53:02,920 INFO [apiautotest] [driver.py (quit:102] - driver退出成功
+2023-03-05 15:51:15,119 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 15:51:15,157 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 15:51:15,232 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击成功
+2023-03-05 15:51:15,266 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '账号登录')
+2023-03-05 15:51:16,033 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '账号登录', 'type': 'linktext', 'value': '账号登录'}点击成功
+2023-03-05 15:51:16,035 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'username')
+2023-03-05 15:51:16,058 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'username'}元素成功
+2023-03-05 15:51:16,217 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'username'}输入文本内容yaoyao成功
+2023-03-05 15:51:16,217 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'password')
+2023-03-05 15:51:16,232 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入密码', 'type': 'id', 'value': 'password'}元素成功
+2023-03-05 15:51:16,396 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入密码', 'type': 'id', 'value': 'password'}输入文本内容yaoyao123456成功
+2023-03-05 15:51:16,396 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'validcode')
+2023-03-05 15:51:16,410 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}元素成功
+2023-03-05 15:51:16,531 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入文本内容1512成功
+2023-03-05 15:51:16,531 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', "(//*[@class='form-sub'])[2]")
+2023-03-05 15:51:16,601 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '点击登录按钮', 'type': 'xpath', 'value': "(//*[@class='form-sub'])[2]"}点击成功
+2023-03-05 15:51:19,006 INFO [apiautotest] [driver.py (quit:102] - driver退出成功
+2023-03-05 15:57:11,942 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 15:57:11,975 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 15:57:12,052 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击成功
+2023-03-05 15:57:12,101 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '账号登录')
+2023-03-05 15:58:59,584 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '账号登录', 'type': 'linktext', 'value': '账号登录'}点击成功
+2023-03-05 15:58:59,584 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'username')
+2023-03-05 15:58:59,604 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'username'}元素成功
+2023-03-05 15:58:59,762 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'username'}输入文本内容yaoyao成功
+2023-03-05 15:58:59,763 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'password')
+2023-03-05 15:58:59,782 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入密码', 'type': 'id', 'value': 'password'}元素成功
+2023-03-05 15:58:59,943 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入密码', 'type': 'id', 'value': 'password'}输入文本内容yaoyao123456成功
+2023-03-05 15:58:59,943 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'validcode')
+2023-03-05 15:58:59,959 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}元素成功
+2023-03-05 15:59:00,141 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入文本内容1512成功
+2023-03-05 15:59:00,142 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', "(//*[@class='form-sub'])[2]")
+2023-03-05 15:59:00,231 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '点击登录按钮', 'type': 'xpath', 'value': "(//*[@class='form-sub'])[2]"}点击成功
+2023-03-05 15:59:02,576 INFO [apiautotest] [driver.py (quit:102] - driver退出成功
+2023-03-05 16:11:10,158 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 16:11:10,219 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 16:11:14,448 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击成功
+2023-03-05 16:11:14,500 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '账号登录')
+2023-03-05 16:11:15,192 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '账号登录', 'type': 'linktext', 'value': '账号登录'}点击成功
+2023-03-05 16:11:15,192 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'username')
+2023-03-05 16:11:15,212 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'username'}元素成功
+2023-03-05 16:11:15,371 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'username'}输入文本内容yaoyao成功
+2023-03-05 16:11:15,371 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'password')
+2023-03-05 16:11:15,388 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入密码', 'type': 'id', 'value': 'password'}元素成功
+2023-03-05 16:11:15,552 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入密码', 'type': 'id', 'value': 'password'}输入文本内容yaoyao123456成功
+2023-03-05 16:11:15,552 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'validcode')
+2023-03-05 16:11:15,569 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}元素成功
+2023-03-05 16:11:15,681 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入文本内容1512成功
+2023-03-05 16:11:15,681 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', "(//*[@class='form-sub'])[2]")
+2023-03-05 16:11:15,745 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '点击登录按钮', 'type': 'xpath', 'value': "(//*[@class='form-sub'])[2]"}点击成功
+2023-03-05 16:11:20,086 INFO [apiautotest] [driver.py (quit:102] - driver退出成功
+2023-03-05 16:56:23,797 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 16:56:23,841 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 16:56:23,941 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击成功
+2023-03-05 16:56:23,973 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '账号登录')
+2023-03-05 16:56:25,095 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '账号登录', 'type': 'linktext', 'value': '账号登录'}点击成功
+2023-03-05 16:56:25,096 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'username')
+2023-03-05 16:56:25,114 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'username'}元素成功
+2023-03-05 16:56:25,284 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'username'}输入文本内容yaoyao成功
+2023-03-05 16:56:25,284 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'password')
+2023-03-05 16:56:25,302 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入密码', 'type': 'id', 'value': 'password'}元素成功
+2023-03-05 16:56:25,492 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入密码', 'type': 'id', 'value': 'password'}输入文本内容yaoyao123456成功
+2023-03-05 16:56:25,492 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'validcode')
+2023-03-05 16:56:25,509 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}元素成功
+2023-03-05 16:56:25,647 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入文本内容1512成功
+2023-03-05 16:56:25,647 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', "(//*[@class='form-sub'])[2]")
+2023-03-05 16:56:25,721 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '点击登录按钮', 'type': 'xpath', 'value': "(//*[@class='form-sub'])[2]"}点击成功
+2023-03-05 16:56:28,192 INFO [apiautotest] [driver.py (quit:102] - driver退出成功
+2023-03-05 17:00:59,129 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 17:00:59,251 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 17:00:59,336 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击成功
+2023-03-05 17:00:59,538 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '账号登录')
+2023-03-05 17:01:00,003 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '账号登录', 'type': 'linktext', 'value': '账号登录'}点击成功
+2023-03-05 17:01:00,003 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'username')
+2023-03-05 17:01:00,035 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'username'}元素成功
+2023-03-05 17:01:00,195 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'username'}输入文本内容yaoyao成功
+2023-03-05 17:01:00,195 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'password')
+2023-03-05 17:01:00,212 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入密码', 'type': 'id', 'value': 'password'}元素成功
+2023-03-05 17:01:00,400 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入密码', 'type': 'id', 'value': 'password'}输入文本内容yaoyao123456成功
+2023-03-05 17:01:00,401 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'validcode')
+2023-03-05 17:01:00,415 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}元素成功
+2023-03-05 17:01:00,536 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入文本内容1512成功
+2023-03-05 17:01:00,536 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', "(//*[@class='form-sub'])[2]")
+2023-03-05 17:01:00,603 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '点击登录按钮', 'type': 'xpath', 'value': "(//*[@class='form-sub'])[2]"}点击成功
+2023-03-05 17:01:03,387 INFO [apiautotest] [driver.py (quit:102] - driver退出成功
+2023-03-05 17:01:34,998 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 17:01:35,233 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 17:01:55,406 ERROR [apiautotest] [driver.py (click:68] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击失败，报错信息为Message: 
+
+2023-03-05 17:02:59,966 INFO [apiautotest] [driver.py (get:52] - 登录http://www.mtxshop.com:3000/
+2023-03-05 17:03:00,023 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '登录')
+2023-03-05 17:03:00,202 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '登录链接', 'type': 'linktext', 'value': '登录'}点击成功
+2023-03-05 17:03:00,247 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('link text', '账号登录')
+2023-03-05 17:03:05,039 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '账号登录', 'type': 'linktext', 'value': '账号登录'}点击成功
+2023-03-05 17:03:05,039 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'username')
+2023-03-05 17:03:05,055 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'username'}元素成功
+2023-03-05 17:03:05,200 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'username'}输入文本内容yaoyao成功
+2023-03-05 17:03:05,200 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'password')
+2023-03-05 17:03:05,214 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入密码', 'type': 'id', 'value': 'password'}元素成功
+2023-03-05 17:03:05,380 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入密码', 'type': 'id', 'value': 'password'}输入文本内容yaoyao123456成功
+2023-03-05 17:03:05,380 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('id', 'validcode')
+2023-03-05 17:03:05,393 INFO [apiautotest] [driver.py (find_element:42] - 查找{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}元素成功
+2023-03-05 17:03:05,511 INFO [apiautotest] [driver.py (send_keys:75] - 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入文本内容1512成功
+2023-03-05 17:03:05,511 INFO [apiautotest] [driver.py (get_by:136] - 元素的定位策略是('xpath', "(//*[@class='form-sub'])[2]")
+2023-03-05 17:03:05,578 INFO [apiautotest] [driver.py (click:66] - 元素{'name': '点击登录按钮', 'type': 'xpath', 'value': "(//*[@class='form-sub'])[2]"}点击成功
+2023-03-05 17:03:07,892 INFO [apiautotest] [driver.py (quit:102] - driver退出成功

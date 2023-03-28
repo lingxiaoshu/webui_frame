@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sun Mar 05 17:01:00 CST 2023","Sun Mar 05 17:01:00 CST 2023","0","testcases","test_addaddress","TestAddress","","","添加地址-详细地址为空",""
+"broken","Sun Mar 05 17:01:00 CST 2023","Sun Mar 05 17:01:00 CST 2023","0","testcases","test_addaddress","TestAddress","","","添加地址-联系人为空",""
+"broken","Sun Mar 05 17:00:50 CST 2023","Sun Mar 05 17:00:50 CST 2023","0","testcases","test_addaddress","TestAddress","","","添加地址-收货人为空",""
+"broken","Sun Mar 05 17:01:00 CST 2023","Sun Mar 05 17:01:00 CST 2023","0","testcases","test_addaddress","TestAddress","","","添加地址-正确",""
+"broken","Sun Mar 05 17:01:00 CST 2023","Sun Mar 05 17:01:00 CST 2023","0","testcases","test_addaddress","TestAddress","","","添加地址-不选择地址",""
+"broken","Sun Mar 05 17:01:00 CST 2023","Sun Mar 05 17:01:00 CST 2023","0","testcases","test_addaddress","TestAddress","","","添加地址-地址别名为空",""
+"broken","Sun Mar 05 17:01:00 CST 2023","Sun Mar 05 17:01:00 CST 2023","0","testcases","test_addaddress","TestAddress","","","添加地址-手机格式不对",""

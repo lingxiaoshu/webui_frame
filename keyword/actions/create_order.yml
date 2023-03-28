@@ -1,0 +1,26 @@
+name: 下单业务
+pagefile: /pagefiles/buyer.yml
+variables:
+  keyword: 纯牛奶
+steps:
+  - page: HomePage
+    element: 搜索框
+    operate: send_keys
+    param: ${keyword}
+  - page: HomePage
+    element: 搜索按钮
+    operate: click
+  - page: SearchResultPage
+    element: 目标商品
+    operate: click
+  - operate: switch_window
+  - page: GoodsDetailPage
+    element: 立即购买
+    operate: click
+  - page: SelectOrderPage
+    element: 选择收货地址
+    operate: click
+  - page: SelectOrderPage
+    element: 提交订单
+    operate: click
+

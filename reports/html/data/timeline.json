@@ -1,0 +1,104 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LXSMI",
+    "children" : [ {
+      "name" : "11260-MainThread",
+      "children" : [ {
+        "name" : "添加地址-详细地址为空",
+        "uid" : "fbec318d5278017d",
+        "parentUid" : "05aabcfaa256dbf0b587bfc7341898ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678006860704,
+          "stop" : 1678006860704,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请输入详细地址'", "'添加地址-详细地址为空'", "''", "'yaoyao'", "'这是一个别名'", "True", "17610873229" ]
+      }, {
+        "name" : "添加地址-联系人为空",
+        "uid" : "e37915ba3802593e",
+        "parentUid" : "05aabcfaa256dbf0b587bfc7341898ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678006860667,
+          "stop" : 1678006860667,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请输入联系方式'", "'添加地址-联系人为空'", "'北京霍营'", "'yaoyao'", "'这是一个别名'", "True", "''" ]
+      }, {
+        "name" : "添加地址-地址别名为空",
+        "uid" : "167d531dbb7b28cc",
+        "parentUid" : "05aabcfaa256dbf0b587bfc7341898ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678006860917,
+          "stop" : 1678006860917,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'保存成功'", "'添加地址-地址别名为空'", "'北京霍营'", "'yaoyao'", "''", "True", "17610873231" ]
+      }, {
+        "name" : "添加地址-手机格式不对",
+        "uid" : "83a03c3475fed349",
+        "parentUid" : "05aabcfaa256dbf0b587bfc7341898ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678006860870,
+          "stop" : 1678006860870,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机格式有误'", "'添加地址-手机格式不对'", "'北京霍营'", "'yaoyao'", "'这是一个别名'", "True", "1111" ]
+      }, {
+        "name" : "添加地址-正确",
+        "uid" : "36ccdf1214e2873e",
+        "parentUid" : "05aabcfaa256dbf0b587bfc7341898ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678006860815,
+          "stop" : 1678006860815,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'保存成功'", "'添加地址-正确'", "'北京霍营'", "'yaoyao'", "'这是一个别名'", "True", "17610873231" ]
+      }, {
+        "name" : "添加地址-收货人为空",
+        "uid" : "ede24a385efee66a",
+        "parentUid" : "05aabcfaa256dbf0b587bfc7341898ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678006850886,
+          "stop" : 1678006850886,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请输入收货人姓名'", "'添加地址-收货人为空'", "'北京霍营'", "''", "'这是一个别名'", "True", "17610873229" ]
+      }, {
+        "name" : "添加地址-不选择地址",
+        "uid" : "6f0d040dea015d35",
+        "parentUid" : "05aabcfaa256dbf0b587bfc7341898ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678006860758,
+          "stop" : 1678006860758,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请选择地址地区'", "'添加地址-不选择地址'", "'北京霍营'", "'yaoyao'", "'这是一个别名'", "False", "17610873230" ]
+      } ],
+      "uid" : "05aabcfaa256dbf0b587bfc7341898ea"
+    } ],
+    "uid" : "705c32f25242af38afe5797b18c4582f"
+  } ]
+}
