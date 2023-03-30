@@ -4,7 +4,7 @@
 # @Project: webui_frame
 # @Software: PyCharm
 # @File: search_result.py
-# @Author: chenhuaishu
+# @Author: lxs
 # @Time: 2023/3/5 21:38
 from pages.base_page import BuyerPage
 from pages.buyer.goalgoods_page import GoodsDetailPage

@@ -4,7 +4,7 @@
 # @Project: webui_frame
 # @Software: PyCharm
 # @File: home_page.py
-# @Author: chenhuaishu
+# @Author: lxs
 # @Time: 2023/3/4 23:18
 from common.driver import InitDriver
 from common.file_load import read_yml

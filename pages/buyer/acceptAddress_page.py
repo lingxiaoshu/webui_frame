@@ -4,7 +4,7 @@
 # @Project: webui_frame
 # @Software: PyCharm
 # @File: acceptAddress_page.py
-# @Author: chenhuaishu
+# @Author: lxs
 # @Time: 2023/3/5 11:13
 import time
 

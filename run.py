@@ -8,6 +8,6 @@ if __name__ == '__main__':
     # pytest 在python文件中执行
     pytest.main()
     # python 中执行命令行参数
-    # os.system('allure generate .\\reports\\report -o ./reports/html --clean')
+    os.system('allure generate .\\reports\\report -o ./reports/html --clean')
 
 

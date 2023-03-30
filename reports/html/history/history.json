@@ -1,5 +1,5 @@
 {
-  "df579c6db71651963db0977a05ad238d" : {
+  "a9eb039a301aa5e6d98bcebe6af3ce4e" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -9,17 +9,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fbec318d5278017d",
+      "uid" : "c773054c661f55f6",
       "status" : "broken",
-      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-详细地址为空-yaoyao-17610873229-select_address2--这是一个别名-请输入详细地址]>>)",
+      "statusDetails" : "Exception: 元素{'name': '目标商品', 'type': 'css', 'value': '.gl-item'}点击失败，报错信息为Message:",
       "time" : {
-        "start" : 1678006860704,
-        "stop" : 1678006860704,
-        "duration" : 0
+        "start" : 1680195069861,
+        "stop" : 1680195100828,
+        "duration" : 30967
       }
     } ]
   },
-  "7cc1ed46c79a6d32b37fbd227217c5b0" : {
+  "928b1985a821443105741147ea624a11" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -29,17 +29,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "36ccdf1214e2873e",
+      "uid" : "4a2721e83ae2ade0",
       "status" : "broken",
-      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-正确-yaoyao-17610873231-select_address4-北京霍营-这是一个别名-保存成功]>>)",
+      "statusDetails" : "Exception: 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入失败，报错信息为object of type 'NoneType' has no len()",
       "time" : {
-        "start" : 1678006860815,
-        "stop" : 1678006860815,
-        "duration" : 0
+        "start" : 1680195045686,
+        "stop" : 1680195048400,
+        "duration" : 2714
       }
     } ]
   },
-  "8e5ed5a4bf67ece5a40c1b65fb15b954" : {
+  "9a50be9536bb6f64e60f98aa953d07c5" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -49,93 +49,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e37915ba3802593e",
+      "uid" : "f4c92a7d4a7ab84d",
       "status" : "broken",
-      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-联系人为空-yaoyao--select_address1-北京霍营-这是一个别名-请输入联系方式]>>)",
+      "statusDetails" : "Exception: 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入失败，报错信息为object of type 'NoneType' has no len()",
       "time" : {
-        "start" : 1678006860667,
-        "stop" : 1678006860667,
-        "duration" : 0
-      }
-    } ]
-  },
-  "beeedd5248a6581bd038b2a22099508f" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "167d531dbb7b28cc",
-      "status" : "broken",
-      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-地址别名为空-yaoyao-17610873231-select_address6-北京霍营--保存成功]>>)",
-      "time" : {
-        "start" : 1678006860917,
-        "stop" : 1678006860917,
-        "duration" : 0
-      }
-    } ]
-  },
-  "1a0d3170d007839975ac36685ede3662" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ede24a385efee66a",
-      "status" : "broken",
-      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-收货人为空--17610873229-select_address0-北京霍营-这是一个别名-请输入收货人姓名]>>)",
-      "time" : {
-        "start" : 1678006850886,
-        "stop" : 1678006850886,
-        "duration" : 0
-      }
-    } ]
-  },
-  "3d10a2312f3a7ac66e62b7bbc7469e5e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6f0d040dea015d35",
-      "status" : "broken",
-      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-不选择地址-yaoyao-17610873230-select_address3-北京霍营-这是一个别名-请选择地址地区]>>)",
-      "time" : {
-        "start" : 1678006860758,
-        "stop" : 1678006860758,
-        "duration" : 0
-      }
-    } ]
-  },
-  "9e755425d9186879e4d35552ee675fd6" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "83a03c3475fed349",
-      "status" : "broken",
-      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-手机格式不对-yaoyao-1111-select_address5-北京霍营-这是一个别名-手机格式有误]>>)",
-      "time" : {
-        "start" : 1678006860870,
-        "stop" : 1678006860870,
-        "duration" : 0
+        "start" : 1680195053470,
+        "stop" : 1680195061669,
+        "duration" : 8199
       }
     } ]
   }

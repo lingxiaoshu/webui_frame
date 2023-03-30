@@ -4,7 +4,7 @@
 # @Project: webui_frame
 # @Software: PyCharm
 # @File: keyword_run.py
-# @Author: chenhuaishu
+# @Author: lxs
 # @Time: 2023/3/6 14:49
 # 1.根据testcases中所有测试用例的个数，去依次执行测试用例
 import re
@@ -75,32 +75,33 @@ def exec_actions(action):
     :return:
     '''
     global pages_info, ele_info, param_name
+    # 所有buyer_login.yml里面的内容
     actions_info = read_yml(action)
-    # 获取业务名字
+    # 业务的名字
     action_name = actions_info.get('name')
     # 配置文件的路径
     pagefile = actions_info.get('pagefile')
-    # 读取配置文件中的所有内容
-    pagefile_info = pagefile.read_yml(pagefile)
-    # 判断是否有变量
-    if 'varaiable' in pagefile_info:
-        variables = actions_info['variable']
+    # 读取配置文件的所有内容
+    pagefile_info = read_yml(pagefile)
+    # 判断一下是否有变量
+    if 'variables' in actions_info:
+        variables = actions_info['variables']
         # 存储到所有的业务变量中
         actions_variables[action_name] = variables
-    # 对业务的步骤进行读取
-    steps = actions_info['steps']
+    # 业务的步骤进行读取
+    steps = actions_info['steps']  # 列表
     for step in steps:
         if 'page' in step:
             page_name = step['page']
             pages_info = pagefile_info.get(page_name)
         if 'element' in step:
             element_name = step['element']
-            ele_info = pages_info.get(element_name)
+            ele_info = pages_info.get(element_name)  # alt+enter键 自动定义全局变量
         operate_name = step['operate']
         if 'param' in step:
-            param_name = step['param']
-            # TODO 解析变量
-            param_name = (action_name, param_name)
+            param_name = step['param']  # '${username}'
+            # 解析变量
+            param_name = regex_sub(action_name, param_name)
         # 利用反射：字符串'click'operate_name->函数->调用他-实现操作元素的功能
         if hasattr(GlobalDriver.driver, operate_name):
             # 获取方法->函数的名字/方法的名字()调用
@@ -128,6 +129,7 @@ def regex_sub(action_name, param_name):
     :param param_name: 需要解析的参数的值
     :return:
     '''
+    global value
     # 正则表达式只能对字符串进行检索和替换
     results = re.findall(r'\$\{(.+?)\}', str(param_name))
     for key in results:
@@ -151,7 +153,7 @@ def regex_sub(action_name, param_name):
         else:
             raise Exception('没有对应的变量的值')
 
-        param_name = re.sub('\$\{' + key + '\}', value, str(param_name))
+        param_name = re.sub(r'\$\{' + key + r'\}', value, str(param_name))
         return param_name
 
 @allure.title('{case_name}')

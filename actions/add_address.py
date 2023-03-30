@@ -4,7 +4,7 @@
 # @Project: webui_frame
 # @Software: PyCharm
 # @File: add_addr.py
-# @Author: chenhuaishu
+# @Author: lxs
 # @Time: 2023/3/5 11:37
 from common.driver import InitDriver
 from pages.buyer.home_page import HomePage

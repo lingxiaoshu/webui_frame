@@ -4,7 +4,7 @@
 # @Project: webui_frame
 # @Software: PyCharm
 # @File: selectorder_page.py
-# @Author: chenhuaishu
+# @Author: lxs
 # @Time: 2023/3/5 21:43
 from pages.base_page import BuyerPage
 # from pages.buyer.orderresult_page import OrderResultPage

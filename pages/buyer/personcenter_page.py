@@ -4,7 +4,7 @@
 # @Project: webui_frame
 # @Software: PyCharm
 # @File: personcenter_page.py
-# @Author: chenhuaishu
+# @Author: lxs
 # @Time: 2023/3/5 11:07
 from pages.base_page import BasePage, BuyerPage
 from pages.buyer.acceptAddress_page import AcceptAddressPage

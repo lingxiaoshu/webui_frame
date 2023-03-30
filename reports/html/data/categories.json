@@ -4,124 +4,52 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-收货人为空--17610873229-select_address0-北京霍营-这是一个别名-请输入收货人姓名]>>)",
+      "name" : "Exception: 元素{'name': '输入验证码', 'type': 'id', 'value': 'validcode'}输入失败，报错信息为object of type 'NoneType' has no len()",
       "children" : [ {
-        "name" : "添加地址-收货人为空",
-        "uid" : "ede24a385efee66a",
-        "parentUid" : "cd2ce76e7cf241496cf35a031574ac64",
+        "name" : "登录用户名错误",
+        "uid" : "4a2721e83ae2ade0",
+        "parentUid" : "04e6d5546fe76fcca20435886aa7ffa0",
         "status" : "broken",
         "time" : {
-          "start" : 1678006850886,
-          "stop" : 1678006850886,
-          "duration" : 0
+          "start" : 1680195045686,
+          "stop" : 1680195048400,
+          "duration" : 2714
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'请输入收货人姓名'", "'添加地址-收货人为空'", "'北京霍营'", "''", "'这是一个别名'", "True", "17610873229" ]
+        "parameters" : [ "'chrome'", "{'name': '登录用户名错误', 'action': '/keyword/actions/buyer_login.yml', 'params': {'username': 'yaoyao1', 'password': 'yaoyao123456', 'validcode': 1512}, 'validate': [{'type': 'page_contains', 'expect': '账号密码错误'}]}", "'登录用户名错误'" ]
+      }, {
+        "name" : "登录密码错误",
+        "uid" : "f4c92a7d4a7ab84d",
+        "parentUid" : "04e6d5546fe76fcca20435886aa7ffa0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1680195053470,
+          "stop" : 1680195061669,
+          "duration" : 8199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'", "{'name': '登录密码错误', 'action': '/keyword/actions/buyer_login.yml', 'params': {'username': 'yaoyao', 'password': 'yaoyao'}, 'validate': [{'type': 'page_contains', 'expect': '账号密码错误'}]}", "'登录密码错误'" ]
       } ],
-      "uid" : "cd2ce76e7cf241496cf35a031574ac64"
+      "uid" : "04e6d5546fe76fcca20435886aa7ffa0"
     }, {
-      "name" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-联系人为空-yaoyao--select_address1-北京霍营-这是一个别名-请输入联系方式]>>)",
+      "name" : "Exception: 元素{'name': '目标商品', 'type': 'css', 'value': '.gl-item'}点击失败，报错信息为Message:",
       "children" : [ {
-        "name" : "添加地址-联系人为空",
-        "uid" : "e37915ba3802593e",
-        "parentUid" : "8853ae5b2795ad6d19031e0da5958d9f",
+        "name" : "创建订单",
+        "uid" : "c773054c661f55f6",
+        "parentUid" : "331d19e6e189a47c60604792da14ca01",
         "status" : "broken",
         "time" : {
-          "start" : 1678006860667,
-          "stop" : 1678006860667,
-          "duration" : 0
+          "start" : 1680195069861,
+          "stop" : 1680195100828,
+          "duration" : 30967
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'请输入联系方式'", "'添加地址-联系人为空'", "'北京霍营'", "'yaoyao'", "'这是一个别名'", "True", "''" ]
+        "parameters" : [ "'chrome'", "{'name': '创建订单', 'preactions': [{'action': '/keyword/actions/buyer_login.yml'}], 'action': '/keyword/actions/create_order.yml', 'validate': [{'type': 'page_contains', 'expect': '订单状态刷新可能会延迟，如果您已付款成功，请勿重复支付'}]}", "'创建订单'" ]
       } ],
-      "uid" : "8853ae5b2795ad6d19031e0da5958d9f"
-    }, {
-      "name" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-详细地址为空-yaoyao-17610873229-select_address2--这是一个别名-请输入详细地址]>>)",
-      "children" : [ {
-        "name" : "添加地址-详细地址为空",
-        "uid" : "fbec318d5278017d",
-        "parentUid" : "0953126f4a163f9a8591585e89926e5b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1678006860704,
-          "stop" : 1678006860704,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'请输入详细地址'", "'添加地址-详细地址为空'", "''", "'yaoyao'", "'这是一个别名'", "True", "17610873229" ]
-      } ],
-      "uid" : "0953126f4a163f9a8591585e89926e5b"
-    }, {
-      "name" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-不选择地址-yaoyao-17610873230-select_address3-北京霍营-这是一个别名-请选择地址地区]>>)",
-      "children" : [ {
-        "name" : "添加地址-不选择地址",
-        "uid" : "6f0d040dea015d35",
-        "parentUid" : "6c6375a14f0686fe8d98c5fadee17ddb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1678006860758,
-          "stop" : 1678006860758,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'请选择地址地区'", "'添加地址-不选择地址'", "'北京霍营'", "'yaoyao'", "'这是一个别名'", "False", "17610873230" ]
-      } ],
-      "uid" : "6c6375a14f0686fe8d98c5fadee17ddb"
-    }, {
-      "name" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-正确-yaoyao-17610873231-select_address4-北京霍营-这是一个别名-保存成功]>>)",
-      "children" : [ {
-        "name" : "添加地址-正确",
-        "uid" : "36ccdf1214e2873e",
-        "parentUid" : "9109a6e3c9a3dcaabe78ea01f72fffb2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1678006860815,
-          "stop" : 1678006860815,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'保存成功'", "'添加地址-正确'", "'北京霍营'", "'yaoyao'", "'这是一个别名'", "True", "17610873231" ]
-      } ],
-      "uid" : "9109a6e3c9a3dcaabe78ea01f72fffb2"
-    }, {
-      "name" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-手机格式不对-yaoyao-1111-select_address5-北京霍营-这是一个别名-手机格式有误]>>)",
-      "children" : [ {
-        "name" : "添加地址-手机格式不对",
-        "uid" : "83a03c3475fed349",
-        "parentUid" : "2fb072ffe4fb870a9e8068b8a4328879",
-        "status" : "broken",
-        "time" : {
-          "start" : 1678006860870,
-          "stop" : 1678006860870,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'手机格式有误'", "'添加地址-手机格式不对'", "'北京霍营'", "'yaoyao'", "'这是一个别名'", "True", "1111" ]
-      } ],
-      "uid" : "2fb072ffe4fb870a9e8068b8a4328879"
-    }, {
-      "name" : "_pytest.fixtures.FixtureLookupError: ('worker_id', <SubRequest 'case_setup_teardown' for <Function test_choose_address[添加地址-地址别名为空-yaoyao-17610873231-select_address6-北京霍营--保存成功]>>)",
-      "children" : [ {
-        "name" : "添加地址-地址别名为空",
-        "uid" : "167d531dbb7b28cc",
-        "parentUid" : "e55cba3fb55cd41a266c3ab9021d105a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1678006860917,
-          "stop" : 1678006860917,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'保存成功'", "'添加地址-地址别名为空'", "'北京霍营'", "'yaoyao'", "''", "True", "17610873231" ]
-      } ],
-      "uid" : "e55cba3fb55cd41a266c3ab9021d105a"
+      "uid" : "331d19e6e189a47c60604792da14ca01"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

@@ -4,7 +4,7 @@
 # @Project: webui_frame
 # @Software: PyCharm
 # @File: login.py
-# @Author: chenhuaishu
+# @Author: lxs
 # @Time: 2023/3/4 23:55
 # 登录业务
 from selenium import webdriver

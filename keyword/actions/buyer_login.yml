@@ -1,5 +1,5 @@
 name: 买家登录业务 # 这表示业务名称
-pagefile: /pagefiles/buyer.yml  # 表示该业务依赖的元素管理文件
+pagefile: /pagesfiles/buyer.yml  # 表示该业务依赖的元素管理文件
 variables: # 表示该业务数据变量的默认值
   username: yaoyao
   password: yaoyao123456

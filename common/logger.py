@@ -30,7 +30,7 @@ class GetLogger:
                                                            backupCount=3,  # 除了原日志文件，还有3个备份
                                                            encoding='utf-8'
                                                            )
-            logging.basicConfig(level=logging.DEBUG,format=fmt) #这是在控制台上打印日志信息
+            logging.basicConfig(level=logging.DEBUG,format=fmt)  # 这是在控制台上打印日志信息
 
             # 在处理器中添加格式器
             tf.setFormatter(fm)

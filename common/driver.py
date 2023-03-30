@@ -4,7 +4,7 @@
 # @Project: webui_frame
 # @Software: PyCharm
 # @File: driver.py
-# @Author: chenhuaishu
+# @Author: lxs
 # @Time: 2023/3/4 21:15
 import time
 
@@ -20,8 +20,14 @@ class GlobalDriver:
 
 
 class InitDriver:
-    def __init__(self, browser: str, worker_id='master',remote_url=None):
-        # grid 去调用操作系统的浏览器的话，remote_url
+    def __init__(self, browser: str, worker_id='master', remote_url=None):
+        '''
+
+        :param browser:
+        :param worker_id:
+        :param remote_url: remote_url=None,说明不连接grid
+        '''
+        # grid 去调用操作系统的浏览器的话，需要连接远程地址（remote_url）
         self.logger = GetLogger().get_logger(worker_id)
         if remote_url == None:
             # 适配不同浏览器
@@ -36,18 +42,18 @@ class InitDriver:
                 raise Exception('不支持的浏览器类型{}'.format(browser))
         else:   # 需要grid去执行
             if browser.lower() == 'chrome':
-                options = webdriver.ChromeOptions
+                options = webdriver.ChromeOptions()
             elif browser.lower() == 'firefox':
-                options = webdriver.FirefoxOptions
+                options = webdriver.FirefoxOptions()
             elif browser.lower() == 'ie':
-                options = webdriver.IeOptions
+                options = webdriver.IeOptions()
             elif browser.lower() == 'edge':
                 # pip install msedge-selenium-tools
                 options = EdgeOptions()
             else:
-
                 self.logger.error('不支持的浏览器类型{}'.format(browser))
                 raise Exception('不支持的浏览器类型{}'.format(browser))
+            # 本机去当hub和node remote_url= http://127.0.0.1:4444/console
             self.driver = webdriver.Remote(remote_url, options.to_capabilities(), keep_alive=True)
         # 浏览器最大化
         self.driver.maximize_window()
@@ -66,7 +72,7 @@ class InitDriver:
             raise Exception(f'查找{ele_info}元素失败，报错信息为{e}')
 
     # 封装地址
-    def get(self,url):
+    def get(self, url):
         # 打开目标的网址
         self.driver.get(url)
         self.logger.info(f'登录{url}')

@@ -51,7 +51,8 @@ teardown在conftest.py中如何实现？
 @pytest.fixture(scope= 'session', autouse= True)
 def init_driver(browser_name, worker_id):
     # 实例化driver对象
-    GlobalDriver.driver = InitDriver(browser_name, worker_id, remote_url='http://127.0.0.1:4444/wb/hub')   # 生产driver对象
+    # remote_url='http://192.168.251.1:4444/console'
+    GlobalDriver.driver = InitDriver(browser_name, worker_id)   # 生产driver对象
     # 地址
     GlobalDriver.driver.get('http://www.mtxshop.com:3000/')
     # 调用登录业务
@@ -76,11 +77,13 @@ def case_setup_teardown(worker_id):
         if img_name.startswith(worker_id) and img_name.endswith('.png'):
             new_list.append(img_name)
     # 排序,保证稳健性
+    # 单任务 master0，master1，master2
     if worker_id == 'master':
         new_list.sort(key=lambda x: int(x[6:-4]))
-    else:
+    else:   # 多任务 gw01.png gw11
         new_list.sort(key=lambda x: int(x[3:-4]))
-    # 拼接gif
+    # 拼接gif pip install pillow
+    # 获取第一张图片，打开所在路径，取第一张
     first_img = Image.open(os.path.join('video', new_list[0]))
     other_imgs = []
     # 其他的照片，需要经过Image.open()进行转换，然后与第一张图片进行拼接
@@ -88,14 +91,14 @@ def case_setup_teardown(worker_id):
         fb = Image.open(os.path.join('video', i))
         other_imgs.append(fb)
     # 保存最终的gif图
-    first_img.save(DIR_NAME+f'video/{worker_id}_record.gif', # 路径
+    first_img.save(DIR_NAME+f'/video/{worker_id}_record.gif',  # 路径
                    append_images=other_imgs,
                    duration=300,    # 存储时间
                    save_all=True,
-                   loop=0)# 持续播放
+                   loop=0)  # 持续播放
     time.sleep(2)
     #将gif图贴到allure中
-    with open(DIR_NAME+f'video/{worker_id}_record.gif', 'rb') as f:
+    with open(DIR_NAME+f'/video/{worker_id}_record.gif', 'rb') as f:
         content = f.read()
         allure.attach(content, '测试用例播放图', attachment_type=allure.attachment_type.GIF)
     # 每条用例执行完成后都要返回首页
@@ -114,7 +117,7 @@ def shot(dr, worker_id):
     for img_name in img_lists:
         if img_name.startswith(worker_id) and img_name.endswith('.png'):
             # 删除包里面的文件内容
-            os.remove('/video'+img_name)
+            os.remove('video/'+img_name)
     n = 0
     while True:
         try:

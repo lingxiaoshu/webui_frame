@@ -1,5 +1,5 @@
 name: 下单业务
-pagefile: /pagefiles/buyer.yml
+pagefile: /pagesfiles/buyer.yml
 variables:
   keyword: 纯牛奶
 steps:

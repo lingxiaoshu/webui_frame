@@ -1,1 +1,0 @@
-INFO     apiautotest:driver.py:102 driver退出成功

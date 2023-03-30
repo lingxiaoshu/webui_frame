@@ -2,107 +2,51 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "testcases",
+    "name" : "keyword",
     "children" : [ {
-      "name" : "test_addaddress",
+      "name" : "keyword_run",
       "children" : [ {
-        "name" : "TestAddress",
-        "children" : [ {
-          "name" : "添加地址-收货人为空",
-          "uid" : "ede24a385efee66a",
-          "parentUid" : "08e5959c5fe257a1f1e2e15fd314b005",
-          "status" : "broken",
-          "time" : {
-            "start" : 1678006850886,
-            "stop" : 1678006850886,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "'请输入收货人姓名'", "'添加地址-收货人为空'", "'北京霍营'", "''", "'这是一个别名'", "True", "17610873229" ]
-        }, {
-          "name" : "添加地址-联系人为空",
-          "uid" : "e37915ba3802593e",
-          "parentUid" : "08e5959c5fe257a1f1e2e15fd314b005",
-          "status" : "broken",
-          "time" : {
-            "start" : 1678006860667,
-            "stop" : 1678006860667,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "'请输入联系方式'", "'添加地址-联系人为空'", "'北京霍营'", "'yaoyao'", "'这是一个别名'", "True", "''" ]
-        }, {
-          "name" : "添加地址-详细地址为空",
-          "uid" : "fbec318d5278017d",
-          "parentUid" : "08e5959c5fe257a1f1e2e15fd314b005",
-          "status" : "broken",
-          "time" : {
-            "start" : 1678006860704,
-            "stop" : 1678006860704,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "'请输入详细地址'", "'添加地址-详细地址为空'", "''", "'yaoyao'", "'这是一个别名'", "True", "17610873229" ]
-        }, {
-          "name" : "添加地址-不选择地址",
-          "uid" : "6f0d040dea015d35",
-          "parentUid" : "08e5959c5fe257a1f1e2e15fd314b005",
-          "status" : "broken",
-          "time" : {
-            "start" : 1678006860758,
-            "stop" : 1678006860758,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "'请选择地址地区'", "'添加地址-不选择地址'", "'北京霍营'", "'yaoyao'", "'这是一个别名'", "False", "17610873230" ]
-        }, {
-          "name" : "添加地址-正确",
-          "uid" : "36ccdf1214e2873e",
-          "parentUid" : "08e5959c5fe257a1f1e2e15fd314b005",
-          "status" : "broken",
-          "time" : {
-            "start" : 1678006860815,
-            "stop" : 1678006860815,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "'保存成功'", "'添加地址-正确'", "'北京霍营'", "'yaoyao'", "'这是一个别名'", "True", "17610873231" ]
-        }, {
-          "name" : "添加地址-手机格式不对",
-          "uid" : "83a03c3475fed349",
-          "parentUid" : "08e5959c5fe257a1f1e2e15fd314b005",
-          "status" : "broken",
-          "time" : {
-            "start" : 1678006860870,
-            "stop" : 1678006860870,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "'手机格式有误'", "'添加地址-手机格式不对'", "'北京霍营'", "'yaoyao'", "'这是一个别名'", "True", "1111" ]
-        }, {
-          "name" : "添加地址-地址别名为空",
-          "uid" : "167d531dbb7b28cc",
-          "parentUid" : "08e5959c5fe257a1f1e2e15fd314b005",
-          "status" : "broken",
-          "time" : {
-            "start" : 1678006860917,
-            "stop" : 1678006860917,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "'保存成功'", "'添加地址-地址别名为空'", "'北京霍营'", "'yaoyao'", "''", "True", "17610873231" ]
-        } ],
-        "uid" : "08e5959c5fe257a1f1e2e15fd314b005"
+        "name" : "登录用户名错误",
+        "uid" : "4a2721e83ae2ade0",
+        "parentUid" : "29d4187d1e0e0f2091a16beb25b98451",
+        "status" : "broken",
+        "time" : {
+          "start" : 1680195045686,
+          "stop" : 1680195048400,
+          "duration" : 2714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'", "{'name': '登录用户名错误', 'action': '/keyword/actions/buyer_login.yml', 'params': {'username': 'yaoyao1', 'password': 'yaoyao123456', 'validcode': 1512}, 'validate': [{'type': 'page_contains', 'expect': '账号密码错误'}]}", "'登录用户名错误'" ]
+      }, {
+        "name" : "登录密码错误",
+        "uid" : "f4c92a7d4a7ab84d",
+        "parentUid" : "29d4187d1e0e0f2091a16beb25b98451",
+        "status" : "broken",
+        "time" : {
+          "start" : 1680195053470,
+          "stop" : 1680195061669,
+          "duration" : 8199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'", "{'name': '登录密码错误', 'action': '/keyword/actions/buyer_login.yml', 'params': {'username': 'yaoyao', 'password': 'yaoyao'}, 'validate': [{'type': 'page_contains', 'expect': '账号密码错误'}]}", "'登录密码错误'" ]
+      }, {
+        "name" : "创建订单",
+        "uid" : "c773054c661f55f6",
+        "parentUid" : "29d4187d1e0e0f2091a16beb25b98451",
+        "status" : "broken",
+        "time" : {
+          "start" : 1680195069861,
+          "stop" : 1680195100828,
+          "duration" : 30967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'", "{'name': '创建订单', 'preactions': [{'action': '/keyword/actions/buyer_login.yml'}], 'action': '/keyword/actions/create_order.yml', 'validate': [{'type': 'page_contains', 'expect': '订单状态刷新可能会延迟，如果您已付款成功，请勿重复支付'}]}", "'创建订单'" ]
       } ],
-      "uid" : "7bb4701a5477a86c7a2ac12153e500df"
+      "uid" : "29d4187d1e0e0f2091a16beb25b98451"
     } ],
-    "uid" : "b51346658ccdb9db01a6b5f6c12deab1"
+    "uid" : "fc4b1a0ae75b9182ea866f5dadd309c3"
   } ]
 }
